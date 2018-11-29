@@ -207,3 +207,447 @@ header{
     width: 150px; /* Full width */
     text-align: center;
   }
+
+/* adding media query to make it responsive */
+
+
+@media screen and (max-width: 980px) {
+    
+
+
+
+}    
+
+
+
+
+
+
+/* ======================================================================================= */
+@media screen and (max-width: 768px) {
+  #gre{  /*background*/
+    border-top: solid gray; 
+    background-color:lightgray;
+    height: 500px;
+}
+
+#inner{  /*white background*/
+    
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 35%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    border:25px solid lightgray;
+}
+#avatar{ /*profile picture*/
+    height:100px;
+    width: 100px;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+footer{ /*footer*/
+    background-color:#666666;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    border-top:7px solid #4aaaa5;
+   
+}
+
+#about{
+    
+    padding-bottom: 20px;
+    color: #4aaaa5;
+    border-bottom: solid lightgray;
+}
+
+
+
+#menu{
+    padding: 50px;
+    width: 640px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-right: 20%;
+   
+}
+
+#block{  /*my name*/
+    padding-left: 50%;
+    padding: 1px ;
+    margin-left: 0%;
+    margin-right: 0%;
+    border: 1px solid #4aaaa5 ;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#name , #email  {
+          width: 100%; 
+          margin-top: 5px;
+          margin-bottom: 5px;
+          
+}
+
+#message{
+        width: 100%;
+        height: 100px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        resize: none;
+        
+}
+
+#submit{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.portf{  /*portfolio*/
+    width: 150px;
+    height: 150px;
+    
+    display: inline-block;
+    
+} 
+
+.image{
+    width: 100%
+}
+
+header{
+    display: inline-flex;
+}
+
+.img1  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content1 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+  .img2  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content2 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+  .img3  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content3 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+
+  .img4  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content4 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+
+  .img5  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content5 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+  .img6  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content6 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width: 640px) {
+  #gre{  /*background*/
+    width: 640px;
+    margin-right: 23%;
+}
+header{
+  position: static;
+  width: 640px;
+}
+#inner{  /*white background*/
+    
+    background-color: white;
+    margin-left: 1%;
+    margin-right: 33%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    border:25px solid lightgray;
+}
+#avatar{ /*profile picture*/
+    height:100px;
+    width: 100px;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+footer{ /*footer*/
+    background-color:#666666;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    border-top:7px solid #4aaaa5;
+   width: 640px;
+}
+
+#about{
+    
+    padding-bottom: 20px;
+    color: #4aaaa5;
+    border-bottom: solid lightgray;
+}
+
+
+
+#menu{
+    padding: 0%;
+    width: 640px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+   
+}
+
+#block{  /*my name*/
+    padding-left: 50%;
+    padding: 1px ;
+    margin-left: 0%;
+    margin-right: -56%;
+    border: 1px solid #4aaaa5 ;
+    background-color: #4aaaa5; 
+    color: white;
+    text-align: center;
+    width: 640px;
+    
+}
+
+#name , #email  {
+          width: 100%; 
+          margin-top: 5px;
+          margin-bottom: 5px;
+          
+}
+
+#message{
+        width: 100%;
+        height: 100px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        resize: none;
+        
+}
+
+#submit{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.portf{  /*portfolio*/
+    width: 150px;
+    height: 150px;
+    
+    display: inline-block;
+    
+} 
+
+.image{
+    width: 100%
+}
+
+header{
+    display: inline-flex;
+}
+
+.img1  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content1 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+  .img2  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content2 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+  .img3  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content3 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+
+  .img4  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content4 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+
+  .img5  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content5 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+  .img6  {
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  
+  .content6 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #4aaaa5;
+    
+    color: #f1f1f1; /* Grey text */
+    width: 150px; /* Full width */
+    text-align: center;
+  }
+
+}
